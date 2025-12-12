@@ -1,5 +1,5 @@
 import { Container } from "../shared/container";
-import logo from "../../assets/icon.svg";
+import logo from "/assets/icon.svg";
 import { NavItem } from "../shared/NavItem";
 import { navItems } from "./Navbar";
 
@@ -8,7 +8,8 @@ export const Footer = () => {
         <Container className="pb-8">
             <div className="flex flex-col md:flex-row justify-between items-center">
                 <div className="flex items-center gap-3 mb-4 md:mb-0">
-                    <img src={logo} className="w-7 h-7" alt="EdgeAI Logo" />
+                    <img src="/assets/icon.svg" alt="EdgeAI Logo" className="w-10 h-10" />
+
                     <span className="text-lg font-semibold text-heading-1">EdgeAI</span>
                 </div>
 
