@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Button } from "../shared/Button";
 import { Container } from "../shared/container";
 import Paragraph from "../shared/Paragraph";
